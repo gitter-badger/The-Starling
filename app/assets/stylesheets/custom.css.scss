@@ -13,6 +13,10 @@ $grayDarker: #222;
   box-sizing: border-box;
 }
 
+.imgr{
+  width: 60px;
+}
+
 /* universal */
 
 html {
@@ -33,6 +37,10 @@ textarea {
 
 .center {
   text-align: center;
+  margin: 10px 40px 40px 40px;
+  background-color: #f2f2f2;
+  border: 40px solid #f2f2f2;
+  border-radius: 5px;
   h1 {
     margin-bottom: 10px;
   }
@@ -47,7 +55,7 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 3em;
   letter-spacing: -2px;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
   text-align: center;
 }
 
@@ -180,14 +188,16 @@ input {
   color: #bf7462;
 }
 
-.alert{
+
+
+.alert-error{
   color: #bf7462;
   background-color: #efdfdf;
   margin-bottom: 5px;
   padding: 10px;
 }
 
-input[type="text"], input[type="password"] {
+input{
     padding: 5px 3px;
 }
 
